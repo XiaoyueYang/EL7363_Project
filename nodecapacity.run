@@ -1,0 +1,9 @@
+reset;
+option solver cplex;
+model nodecapacity.mod;
+data nodecapacity.dat;
+solve;
+display x;
+display u;
+display z;
+display Cost;

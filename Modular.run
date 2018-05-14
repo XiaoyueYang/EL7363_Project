@@ -1,0 +1,8 @@
+reset;
+option solver cplex;
+model Modular.mod;
+data Modular.dat;
+solve;
+display x;
+display u;
+display Cost;
